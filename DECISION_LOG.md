@@ -50,3 +50,15 @@ each one maps to a piece of this kit:
 **Revisit if:** the harness needs a feature the standard library makes
 painful (parallel trajectory scoring is the likely candidate), or the
 maturity scale's level boundaries stop matching how teams actually stall.
+
+## 2026-10-25 — Rename to eval-kit-template; purpose moved into the README
+
+**Decision:** Renamed the repo from eval-kit to eval-kit-template — the name
+should say what the repo is. Also moved the "why" out of this log and into
+the README: the four recurring failures now appear up front, where a visitor
+lands, with this log cited for the full reasoning.
+
+**Evidence:** The purpose was fully written here (2026-10-24 entry) but a
+reader of the README alone could learn what the kit does without learning
+who it is for or which failures it prevents. Cory's call on the rename;
+README gap found on review the same day.

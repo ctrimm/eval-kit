@@ -1,4 +1,4 @@
-# eval-kit
+# eval-kit-template
 
 A starter kit for evaluating AI systems with the discipline the work actually
 needs: a gold set frozen before you build, gates written down before you run,
@@ -8,6 +8,30 @@ what the numbers made you do.
 Use it as a GitHub template: click "Use this template", replace the toy
 example in `example/` with your task, and start at whatever maturity level
 you can honestly claim.
+
+## Why this exists
+
+It is for anyone shipping an AI system whose quality claims have to survive
+scrutiny — a team about to change a model or a prompt, a researcher reporting
+a number other people will cite, a practitioner whose current eval is reading
+a few outputs and nodding. The kit exists because four failures keep
+recurring wherever AI systems get evaluated, and each one maps to a piece of
+it:
+
+1. **Gold sets built after the system.** Once you have seen the outputs, you
+   write cases the system can pass. So the gold set is sealed before the
+   build.
+2. **Thresholds chosen after the run.** A gate picked once the scores are
+   known always passes. So gates are preregistered, and the harness exits
+   nonzero when one fails.
+3. **Point estimates with no uncertainty.** 0.90 on 30 cases and 0.90 on
+   3,000 cases are different claims. So every score ships with a confidence
+   interval, per stratum.
+4. **Decisions that lived in chat.** Six months later nobody can say why a
+   threshold moved. So every number-driven decision goes in the decision
+   log, with its evidence and date.
+
+The full reasoning, in this repo's own log: [DECISION_LOG.md](DECISION_LOG.md).
 
 ## The maturity scale
 
