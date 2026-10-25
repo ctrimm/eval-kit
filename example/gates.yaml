@@ -1,0 +1,8 @@
+# Gates for the toy example, in the flat subset format parsed by eval/gates.py.
+# In a real project these numbers live in the preregistration, written
+# before the first scored run — not tuned after seeing scores.
+min_accuracy: 0.85
+min_mean_judge_score: 0.85
+strata:
+  routine: 0.90
+  edge: 0.70

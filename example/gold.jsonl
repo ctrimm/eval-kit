@@ -1,0 +1,30 @@
+{"id": "c001", "input": "Huge pothole on Elm Street near the bus stop, getting deeper every week.", "expected": "pothole", "tags": ["pothole", "routine"]}
+{"id": "c002", "input": "The road surface caved in at 5th and Main and cars are bottoming out.", "expected": "pothole", "tags": ["pothole", "edge"]}
+{"id": "c003", "input": "Asphalt is crumbling around the manhole cover on 3rd Avenue.", "expected": "pothole", "tags": ["pothole", "edge"]}
+{"id": "c004", "input": "Pothole in the bike lane on River Road, right where cyclists merge.", "expected": "pothole", "tags": ["pothole", "routine"]}
+{"id": "c005", "input": "There is a deep hole in the street by the elementary school entrance.", "expected": "pothole", "tags": ["pothole", "edge"]}
+{"id": "c006", "input": "Crews tore up the road in March and never repaved it; it is all gravel now.", "expected": "pothole", "tags": ["pothole", "edge"]}
+{"id": "c007", "input": "Streetlight is out at the corner of Oak and 9th and the block is pitch black.", "expected": "streetlight", "tags": ["streetlight", "routine"]}
+{"id": "c008", "input": "The lamp on our block flickers on and off all night long.", "expected": "streetlight", "tags": ["streetlight", "edge"]}
+{"id": "c009", "input": "A light pole got knocked down in the storm and there are wires on the ground.", "expected": "streetlight", "tags": ["streetlight", "edge"]}
+{"id": "c010", "input": "The street light at 1200 Pine Street has been dead for a week.", "expected": "streetlight", "tags": ["streetlight", "routine"]}
+{"id": "c011", "input": "The bulb in the street lamp shattered and there is glass on the sidewalk.", "expected": "streetlight", "tags": ["streetlight", "routine"]}
+{"id": "c012", "input": "Someone dumped a mattress and a set of tires in the alley behind Vine Street.", "expected": "trash", "tags": ["trash", "routine"]}
+{"id": "c013", "input": "The trash bins at the park entrance are overflowing and trash is blowing across the lawn.", "expected": "trash", "tags": ["trash", "routine"]}
+{"id": "c014", "input": "Our garbage pickup was missed again on Thursday, third time this month.", "expected": "trash", "tags": ["trash", "routine"]}
+{"id": "c015", "input": "Bags of litter are scattered along the creek trail near the footbridge.", "expected": "trash", "tags": ["trash", "edge"]}
+{"id": "c016", "input": "Construction debris has been sitting on the vacant lot for two months.", "expected": "trash", "tags": ["trash", "edge"]}
+{"id": "c017", "input": "Water main break at 7th and Walnut, the street is flooding fast.", "expected": "water", "tags": ["water", "routine"]}
+{"id": "c018", "input": "The fire hydrant on our corner has been leaking steadily since Tuesday.", "expected": "water", "tags": ["water", "edge"]}
+{"id": "c019", "input": "Brown water is coming out of all our taps since this morning.", "expected": "water", "tags": ["water", "edge"]}
+{"id": "c020", "input": "The storm drain is clogged and the intersection floods every time it rains.", "expected": "water", "tags": ["water", "edge"]}
+{"id": "c021", "input": "A pipe burst in front of 44 Birch Lane and there is water everywhere.", "expected": "water", "tags": ["water", "routine"]}
+{"id": "c022", "input": "Loud party with amplified music going past 2 a.m. every weekend.", "expected": "noise", "tags": ["noise", "routine"]}
+{"id": "c023", "input": "A construction crew starts jackhammering at 5 a.m., hours before the permitted time.", "expected": "noise", "tags": ["noise", "edge"]}
+{"id": "c024", "input": "A car alarm has been going off for six hours straight on our street.", "expected": "noise", "tags": ["noise", "edge"]}
+{"id": "c025", "input": "A dog is left outside barking all night, third night in a row.", "expected": "noise", "tags": ["noise", "routine"]}
+{"id": "c026", "input": "Graffiti tags are all over the underpass wall again.", "expected": "graffiti", "tags": ["graffiti", "routine"]}
+{"id": "c027", "input": "Someone spray-painted the entire side of the public library.", "expected": "graffiti", "tags": ["graffiti", "edge"]}
+{"id": "c028", "input": "Fresh tagging showed up on the playground equipment at Central Park.", "expected": "graffiti", "tags": ["graffiti", "routine"]}
+{"id": "c029", "input": "An abandoned car with two flat tires has not moved in three weeks.", "expected": "parking", "tags": ["parking", "edge"]}
+{"id": "c030", "input": "A vehicle is blocking my driveway every morning on Cedar Street.", "expected": "parking", "tags": ["parking", "routine"]}
